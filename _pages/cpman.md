@@ -32,10 +32,11 @@ Allow projects to be built, debugged, ran, and deployed in containers (through e
 | [BIN_PATH] | binPath value |
 | [BIN_FILE] | binFile value | 
 | [DATA_DIR] | location of output data directory (hostBasePath/name[ENV][DEBUG]/data) |
-| [CURR_DIR] | current working directory |
 | [WEBPACK_DIR] | current iteration of specified webpack directories |
 | [OPTIMIZE] | optimize value | 
+| [CURR_DIR] | current working directory |
 | ./ | current working directory |
+
 
 <br/>
 
