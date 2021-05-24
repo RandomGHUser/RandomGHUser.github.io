@@ -116,6 +116,7 @@ webpack:
     BREAK_ALL
 ```
 ## K8s manifest
+
 | Name | Description |
 | --- | --- | 
 | hostBasePath | The base path for deploying an environment (will create subdirectory under this when deploying) |
@@ -128,6 +129,7 @@ webpack:
 
 
 ### Environment options
+
 | Name | Description |
 | --- | --- |
 | debug | if true, runs environment using debug image | 
