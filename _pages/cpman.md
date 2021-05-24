@@ -46,10 +46,11 @@ Image types:
 
 | Name | Description |
 | --- | --- |
-| build | container configuration for compiling project (uses docker run) |
-| debug | container configuration for an environment where debug = true |
-| run | container configuration for an environment where debug = false |
-| webpack | container configuration for environment where webpack = true, will run the docker command and postrun command for each webpack directory specified. |
+| build | container configuration for compiling project uses docker run |
+| debug | container configuration for an environment where debug is true |
+| run | container configuration for an environment where debug is false |
+| webpack | container configuration for environment where webpack is true, will run the docker command and postrun command for each webpack directory specified. |
+
 <br/>
 
 Options:
