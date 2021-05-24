@@ -102,7 +102,7 @@ webpack:
     docker run --rm --user $UID:$UID -v [WEBPACK_DIR]:/webpack-dir js-obfuscator \
     javascript-obfuscator --compact true --self-defending false --source-map true --source-map-mode separate /webpack-dir
   postRunCmd: |
-    /bin/bash <<'BREAK_ALL'
+    /bin/bash <<'END_BREAK'
     #!/bin/bash
       source_dir="[WEBPACK_DIR]/../js_sourcemaps"
       mkdir -p "$source_dir"
@@ -114,7 +114,7 @@ webpack:
         awk -i inplace -v o="$mapfile" -v n="$newmap" '{gsub(o,n)}1' "$newname"
         mv "$name.map" "$source_dir/$newmap"
       done
-    BREAK_ALL
+    END_BREAK
 ```
 ## K8s manifest
 
