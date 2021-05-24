@@ -4,4 +4,4 @@ title: Nothing to see here
 categories: [Miscellaneous]
 ---
 
-Main page, nothing interesting to say. 
+Main page, nothing to see here.
