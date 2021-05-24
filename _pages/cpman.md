@@ -4,8 +4,6 @@ permalink: /cpman/
 title: Container Project Manager
 ---
 
-## Container Project Manager
-
 ## Purpose
 
 Allow projects to be built, debugged, ran, and deployed in containers (through either docker compose or kubernetes+helm) configured through a single yaml file (or multiple, if wanted).
