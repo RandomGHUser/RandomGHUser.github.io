@@ -141,14 +141,12 @@ webpack:
 | copyBin | if true, copies bin to output data directory |
 | webpack | array of directories, will run the webpack image for each using the [WEBPACK_DIR] variable.  Must be a copied volume (copyVolumes=true) | 
 
-### Shared variable stacks
-
-Environment and Chart Variables are combined in the order:
+Note: Environment and Chart Variables are combined in the order:
 
 Image Variables > Shared Variables > Environment specific variables.
 
 
-### Example:
+### Manifest Example:
 
 ```yaml
 version: "1.0.7"
